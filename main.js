@@ -48,7 +48,7 @@ function startQuiz(event) {
     app.appendChild(submitButton);
   }
 
-// ********** Function d'afficher le message de fin quiz ****************
+// ********** Function d'afficher le message de fin quiz *******************
   function displayFinishMessage() {
     const h1 = document.createElement("h1");
     h1.innerText = "Bravo ! Tu as terminé le quiz.";

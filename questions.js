@@ -1,14 +1,14 @@
 export const Questions = [
     {
-      question: 'Comment déclarer une variable qui ne peut pas être modifiée ?',
-      answers: ['const', 'let', 'var'],
-      correct: 'const',
+      question: 'Quel est le mot-clé utilisé pour déclarer une variable en JavaScript ?',
+      answers: ['var', 'int', 'string'],
+      correct: 'var',
     },
     {
       question:
-        'Quelle méthode transforme une chaîne de caractères en nombre entier ?',
-      answers: ['parseInt', 'parseFloat', 'toString'],
-      correct: 'parseInt',
+        'Quelle fonction est utilisée pour imprimer du texte dans la console JavaScript ?',
+      answers: ['console.log()', 'print()', 'log()', 'display()'],
+      correct: 'console.log()',
     },
     {
       question: 'Quel est le résultat de "2" + 2 en JavaScript ?',
@@ -16,9 +16,9 @@ export const Questions = [
       correct: '"22"',
     },
     {
-      question: "Comment appelle-t-on une fonction qui s'appelle elle-même ?",
-      answers: ['Fonction circulaire', 'Fonction récursive', 'Fonction miroir'],
-      correct: 'Fonction récursive',
+      question: "Quelle déclaration est utilisée pour créer une fonction en JavaScript ?",
+      answers: ['func myFunction()', 'function myFunction()', 'create function myFunction()', 'new function myFunction()'],
+      correct: 'function myFunction()',
     },
     {
       question: 'Quelle fonction permet de créer un délai en JavaScript ?',
@@ -48,8 +48,8 @@ export const Questions = [
       correct: '0',
     },
     {
-      question: 'Comment accéder au premier élément d\'un tableau appelé "myArray" ?',
-      answers: ['myArray[1]', 'myArray[0]', 'myArray.first()', 'myArray.one'],
-      correct: 'myArray[0]',
+      question: 'Comment définiriez-vous une variable constante en JavaScript ?',
+      answers: ['var myVar = 42;;', 'let myVar = 42;', 'const myVar = 42;', 'constant myVar = 42;'],
+      correct: 'const myVar = 42;',
     },
   ];

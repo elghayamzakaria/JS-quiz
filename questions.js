@@ -49,7 +49,7 @@ export const Questions = [
   },
   {
     question: 'Comment définiriez-vous une variable constante en JavaScript ?',
-    answers: ['var myVar = 42;;', 'let myVar = 42;', 'const myVar = 42;', 'constant myVar = 42;'],
+    answers: ['var myVar = 42;', 'let myVar = 42;', 'const myVar = 42;', 'constant myVar = 42;'],
     correct: 'const myVar = 42;',
   },
 ];
